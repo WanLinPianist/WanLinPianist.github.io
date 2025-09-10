@@ -127,3 +127,20 @@ footer{border-top:1px solid var(--border); padding:28px 0; background:#fff; colo
   /* optional: add a bit more breathing room on phones */
   .hero { padding: 72px 1rem 48px; }
 }
+
+.gallery-item {
+  margin: 0;
+}
+.gallery-item img {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.gallery-item figcaption {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  text-align: center;
+}
