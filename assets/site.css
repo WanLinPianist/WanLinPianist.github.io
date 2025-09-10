@@ -1,0 +1,112 @@
+:root{ --bg:#ffffff; --fg:#1b1b1f; --muted:#5a5a66; --accent:#9a7c3e; --border:#e9e9ef; }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0; background:var(--bg); color:var(--fg); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height:1.65}
+img{max-width:100%; height:auto; display:block}
+.container{max-width:980px; margin:0 auto; padding:0 1rem}
+
+
+/* Header */
+.header{position:sticky; top:0; z-index:10; background:#fff; border-bottom:1px solid var(--border)}
+.nav{display:flex; align-items:center; justify-content:space-between; height:64px}
+.brand{display:flex; align-items:center; gap:.6rem; text-decoration:none; color:inherit}
+.logo{width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg, var(--accent), #c8a96a); display:grid; place-items:center; color:#fff; font-weight:700}
+.menu{display:flex; gap:.8rem}
+.menu a{padding:.45rem .7rem; border-radius:.5rem; text-decoration:none; color:inherit}
+.menu a:hover{background:#f7f7fa}
+
+
+/* Hero (Home) 
+.hero{padding:96px 0 72px; text-align:center}
+.kicker{text-transform:uppercase; letter-spacing:.18em; color:var(--accent); font-size:.85rem}
+.title{font-family:"Playfair Display", Georgia, serif; font-size:clamp(2rem,5vw,3.2rem); line-height:1.2; margin:.5rem 0}
+.sub{color:var(--muted)}
+.cta{margin-top:1rem; display:flex; gap:.8rem; justify-content:center; flex-wrap:wrap}
+.btn{display:inline-flex; align-items:center; gap:.45rem; padding:.75rem 1rem; border-radius:.6rem; border:1px solid var(--accent); color:var(--fg); text-decoration:none}
+.btn.primary{background:linear-gradient(135deg,var(--accent),#c8a96a); color:#fff; border:none; font-weight:700}
+*/
+/* Hero (Home) */
+.hero {
+  position: relative;
+  min-height: 90vh;  /* fills most of the screen */
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: url('cover.jpg') center/cover no-repeat;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45); /* dark overlay */
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1; /* ensures text sits above overlay */
+  color: #fff; /* white text for contrast */
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  color: var(--accent);
+  font-size: .85rem;
+}
+
+.title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.2;
+  margin: .5rem 0;
+}
+
+.sub {
+  color: #f0f0f0; /* lighter than muted for visibility on dark background */
+}
+
+.cta {
+  margin-top: 1rem;
+  display: flex;
+  gap: .8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .75rem 1rem;
+  border-radius: .6rem;
+  border: 1px solid var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, var(--accent), #c8a96a);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+}
+
+
+/* Sections */
+section{padding:56px 0}
+section h1, section h2{font-family:"Playfair Display", Georgia, serif}
+.lead{font-size:1.05rem; color:var(--muted)}
+.card{background:#fff; border:1px solid var(--border); border-radius:14px; padding:1rem}
+.grid{display:grid; grid-template-columns:repeat(12, 1fr); gap:1rem}
+.col-6{grid-column:span 6}
+.col-4{grid-column:span 4}
+.col-8{grid-column:span 8}
+@media (max-width:900px){ .col-6,.col-4,.col-8{grid-column:1/-1} }
+
+
+/* Footer */
+footer{border-top:1px solid var(--border); padding:28px 0; background:#fff; color:var(--muted)}
+
+
+:focus-visible{outline:2px dashed var(--accent); outline-offset:2px}
