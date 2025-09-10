@@ -1,0 +1,65 @@
+<title>Dr. Wan Lin | Pianist</title>
+<meta name="description" content="Concert pianist Dr. Wan Lin — recitals, media, and contact." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header class="header" role="banner">
+<div class="container nav">
+<a class="brand" href="./index.html">
+  <span class="logo">WL</span>
+  <strong>Dr. Wan Lin</strong>
+</a>
+<nav class="menu" aria-label="Primary">
+<a href="about.html">About</a>
+<a href="performances.html">Performances</a>
+<a href="media.html">Media</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+
+
+<main>
+<section class="hero">
+<div class="container">
+<div class="kicker">Pianist</div>
+<h1 class="title">Dr. Wan Lin</h1>
+<p class="sub">Recitals • Recordings • Lecture‑performances</p>
+<div class="cta">
+<a class="btn primary" href="performances.html"><i class="fa-regular fa-calendar"></i> See Performances</a>
+<a class="btn" href="media.html"><i class="fa-regular fa-circle-play"></i> Watch & Listen</a>
+<a class="btn" href="contact.html"><i class="fa-regular fa-envelope"></i> Contact</a>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="container grid">
+<div class="col-8">
+<h2>Welcome</h2>
+<p class="lead">Concert pianist and researcher based in Urbana–Champaign. Programs span Beethoven to twentieth‑century Chinese repertoire, inviting dialogue across traditions.</p>
+</div>
+<div class="col-4">
+<div class="card" style="min-height:240px; background:url('assets/portrait.jpg') center/cover no-repeat" role="img" aria-label="Portrait of Dr. Wan Lin"></div>
+</div>
+</div>
+</section>
+</main>
+
+
+<footer>
+<div class="container" style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap">
+<div>© <span id="year"></span> Dr. Wan Lin</div>
+<div>Urbana–Champaign, IL</div>
+</div>
+</footer>
+
+
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
