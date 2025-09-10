@@ -63,7 +63,10 @@ img{max-width:100%; height:auto; display:block}
 }
 
 .sub {
-  color: #f0f0f0; /* lighter than muted for visibility on dark background */
+  color: #f0f0f0;
+  font-size: 1.4rem;       /* increase font size */
+  letter-spacing: 0.15em;  /* add space between letters/words */
+  margin-top: 0.8rem;      /* extra space above, optional */
 }
 
 .cta {
