@@ -113,18 +113,18 @@ footer{border-top:1px solid var(--border); padding:28px 0; background:#fff; colo
 
 /* Mobile typography improvements */
 @media (max-width: 640px) {
-  body {
-    font-size: 20px;       /* bump up from ~16px */
-    line-height: 1.7;
-  }
+  /* 1rem now = 18px (or pick 19px if you prefer larger) */
+  html { font-size: 18px; }
+
+  body { line-height: 1.7; }
+
   .title {
-    font-size: clamp(2.4rem, 8vw, 3rem); /* slightly larger headline */
+    /* scales with rem correctly now */
+    font-size: clamp(2.4rem, 8vw, 3rem);
   }
-  .sub {
-    font-size: 1.1rem;     /* subtitle easier to read */
-  }
-  .btn {
-    font-size: 1rem;       /* make buttons easier to tap */
-    padding: 0.9rem 1.2rem;
-  }
+  .sub { font-size: 1.1rem; }
+  .btn { font-size: 1rem; padding: 0.9rem 1.2rem; }
+
+  /* optional: add a bit more breathing room on phones */
+  .hero { padding: 72px 1rem 48px; }
 }
