@@ -52,7 +52,7 @@ img{max-width:100%; height:auto; display:block}
   text-transform: uppercase;
   letter-spacing: .14em;
   color: var(--accent);
-  font-size: 0.8rem;
+  font-size: 0.95rem;
 }
 
 .title {
