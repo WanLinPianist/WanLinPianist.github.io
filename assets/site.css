@@ -52,7 +52,7 @@ img{max-width:100%; height:auto; display:block}
   text-transform: uppercase;
   letter-spacing: .14em;
   color: var(--accent);
-  font-size: 0.95rem;
+  font-size: 0.99rem;
 }
 
 .title {
@@ -65,7 +65,7 @@ img{max-width:100%; height:auto; display:block}
 .sub {
   color: #f0f0f0;
   font-family: "Playfair Display", Georgia, serif;
-  font-size: 1.5rem;       /* increase font size */
+  font-size: clamp(1.5rem, 3vw, 2rem);       /* increase font size */
   letter-spacing: 0.18em;  /* add space between letters/words */
   margin-top: 0.8rem;      /* extra space above, optional */
 }
