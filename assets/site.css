@@ -110,3 +110,21 @@ footer{border-top:1px solid var(--border); padding:28px 0; background:#fff; colo
 
 
 :focus-visible{outline:2px dashed var(--accent); outline-offset:2px}
+
+/* Mobile typography improvements */
+@media (max-width: 640px) {
+  body {
+    font-size: 18px;       /* bump up from ~16px */
+    line-height: 1.7;
+  }
+  .title {
+    font-size: clamp(2.4rem, 8vw, 3rem); /* slightly larger headline */
+  }
+  .sub {
+    font-size: 1.1rem;     /* subtitle easier to read */
+  }
+  .btn {
+    font-size: 1rem;       /* make buttons easier to tap */
+    padding: 0.9rem 1.2rem;
+  }
+}
