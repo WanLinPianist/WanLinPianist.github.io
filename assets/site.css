@@ -50,9 +50,9 @@ img{max-width:100%; height:auto; display:block}
 
 .kicker {
   text-transform: uppercase;
-  letter-spacing: .18em;
+  letter-spacing: .14em;
   color: var(--accent);
-  font-size: 1.0rem;
+  font-size: 0.8rem;
 }
 
 .title {
@@ -64,8 +64,9 @@ img{max-width:100%; height:auto; display:block}
 
 .sub {
   color: #f0f0f0;
-  font-size: 1.8rem;       /* increase font size */
-  letter-spacing: 0.20em;  /* add space between letters/words */
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.5rem;       /* increase font size */
+  letter-spacing: 0.18em;  /* add space between letters/words */
   margin-top: 0.8rem;      /* extra space above, optional */
 }
 
