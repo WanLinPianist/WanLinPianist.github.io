@@ -64,9 +64,9 @@ img{max-width:100%; height:auto; display:block}
 
 .sub {
   color: #f0f0f0;
-  font-size: 1.8rem;       /* increase font size */
-  letter-spacing: 0.20em;  /* add space between letters/words */
-  margin-top: 0.9rem;      /* extra space above, optional */
+  font-size: 2.8rem;       /* increase font size */
+  letter-spacing: 0.40em;  /* add space between letters/words */
+  margin-top: 1.0rem;      /* extra space above, optional */
 }
 
 .cta {
