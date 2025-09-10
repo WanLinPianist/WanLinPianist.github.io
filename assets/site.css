@@ -52,7 +52,7 @@ img{max-width:100%; height:auto; display:block}
   text-transform: uppercase;
   letter-spacing: .18em;
   color: var(--accent);
-  font-size: .99rem;
+  font-size: 1.05rem;
 }
 
 .title {
@@ -64,9 +64,9 @@ img{max-width:100%; height:auto; display:block}
 
 .sub {
   color: #f0f0f0;
-  font-size: 1.4rem;       /* increase font size */
-  letter-spacing: 0.15em;  /* add space between letters/words */
-  margin-top: 0.8rem;      /* extra space above, optional */
+  font-size: 1.8rem;       /* increase font size */
+  letter-spacing: 0.20em;  /* add space between letters/words */
+  margin-top: 0.9rem;      /* extra space above, optional */
 }
 
 .cta {
