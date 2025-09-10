@@ -113,8 +113,7 @@ footer{border-top:1px solid var(--border); padding:28px 0; background:#fff; colo
 
 /* Mobile typography improvements */
 @media (max-width: 640px) {
-  /* 1rem now = 18px (or pick 19px if you prefer larger) */
-  html { font-size: 18px; }
+  html { font-size: 15px; }
 
   body { line-height: 1.7; }
 
