@@ -151,7 +151,7 @@ footer{border-top:1px solid var(--border); padding:28px 0; background:#fff; colo
 }
 
 .brand-logo {
-  height: 20px;       /* adjust as needed */
+  height: 30px;       /* adjust as needed */
   width: auto;
   display: block;
 }
