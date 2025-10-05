@@ -155,3 +155,23 @@ footer{border-top:1px solid var(--border); padding:28px 0; background:#fff; colo
   width: auto;
   display: block;
 }
+
+/* Performance Gallery */
+.gallery-item {
+  margin: 0;
+  text-align: center;
+}
+
+.gallery-item figcaption {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
